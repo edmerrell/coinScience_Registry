@@ -1,0 +1,21 @@
+#application.yml
+#server:
+#  port: 8751
+
+#eureka:
+#    instance:
+#      hostname: localhost
+#    client:
+#      registerWithEureka: false
+#      fetchRegistry: false
+
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
